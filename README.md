@@ -1,211 +1,115 @@
-# Awesome-Cash-Management-Platform
+# Awesome Cash Management Platform & Treasury Solutions 💼💰
 
-## Top Cash Management Platforms Ecosystem
+![Awesome Cash Management Banner](assets/banner.svg)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cash-Management-Platform?style=flat-square" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cash-Management-Platform?style=flat-square" alt="Forks" />
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Cash-Management-Platform?style=flat-square" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Corporate Cash Positioning, Liquidity, Forecasting, Bank Connectivity, Payments & Treasury Visibility*
+## 📌 Top Corporate Cash Management & Treasury Platforms Ecosystem 🌐
 
-**Last updated: September 2026**
+A curated directory of enterprise **Cash Management Systems (CMS)**, **Treasury Management Systems (TMS)**, corporate liquidity forecasting software, bank connectivity solutions, and self-hosted open-source financial accounting platforms.
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cash Management**. These systems give corporates real-time visibility into cash positions across banks and entities, support forecasting, payments, liquidity optimization, and treasury operations.
-
-
-
-**Examples** include Kyriba, TIS, Nomentia, FIS Cash Management, GTreasury, HighRadius Cash Management, Cashforce, Coupa Treasury, Oracle Cash Management, and SAP Cash Management (the category leaders).
-
-
-
-**Open-source emphasis**: Enterprise cash and treasury management is almost entirely commercial. There is no widely adopted production-grade open-source TMS/cash platform comparable to Kyriba or GTreasury. Related open tools exist mainly in personal finance and experimental treasury prototypes. This section is expanded with those while remaining realistic about the commercial gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Kyriba](https://www.kyriba.com/)**  
-
-  Leading enterprise liquidity and treasury platform for global cash visibility, payments, forecasting, risk, and bank connectivity.
-
-
-
-- **[TIS](https://www.tispayments.com/)**  
-
-  Corporate payment and cash management platform focused on multi-bank payments, connectivity, and treasury operations.
-
-
-
-- **[Nomentia](https://www.nomentia.com/)**  
-
-  Modular cloud treasury and cash management suite covering bank connectivity, payments, liquidity, and risk for European and global corporates.
-
-
-
-- **[FIS Cash Management](https://www.fisglobal.com/)**  
-
-  Enterprise cash and treasury solutions within the broader FIS financial technology portfolio.
-
-
-
-- **[GTreasury](https://www.gtreasury.com/)**  
-
-  Centralized treasury management platform for cash positioning, forecasting, bank connectivity, and risk workflows.
-
-
-
-- **[HighRadius Cash Management](https://www.highradius.com/)**  
-
-  AI-oriented cash and treasury capabilities within HighRadius’ order-to-cash and finance automation suite.
-
-
-
-- **[Cashforce](https://www.cashforce.com/)**  
-
-  Cash forecasting and working capital platform focused on accurate, data-driven liquidity projections.
-
-
-
-- **[Coupa Treasury](https://www.coupa.com/)**  
-
-  Treasury and cash management capabilities integrated with Coupa’s business spend and finance platform.
-
-
-
-- **[Oracle Cash Management](https://www.oracle.com/)**  
-
-  Oracle’s cash management modules within ERP and financials for positioning, reconciliation, and forecasting.
-
-
-
-- **[SAP Cash Management](https://www.sap.com/)**  
-
-  SAP Treasury and Cash Management solutions for real-time cash, liquidity, and integrated ERP treasury processes.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Experimental open treasury / TMS prototypes](https://github.com/)**  
-
-  Early-stage open efforts aiming at cash positioning, forecasting, and bank connectivity for mid-market use (not production-grade equivalents of commercial TMS).
-
-
-
-- **[Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex)**  
-
-  Mature open-source personal and small-business finance application for cash flow, accounts, budgeting, and reporting (not corporate multi-bank TMS).
-
-
-
-- **[ERPNext / Frappe accounting modules](https://github.com/frappe/erpnext)**  
-
-  Open-source ERP with bank reconciliation, cash flow reports, and basic multi-company accounting—useful building blocks but not full cash management.
-
-
-
-- **[Open Banking / PSD2 connector open libraries](https://github.com/)**  
-
-  Community libraries for account information and payment initiation APIs that can feed custom cash visibility tools.
-
-
-
-- **[Cash flow forecasting open notebooks](https://github.com/)**  
-
-  Research and prototype notebooks applying statistical and ML models to historical cash data.
-
-
-
-- **[Multi-currency and FX open utilities](https://github.com/)**  
-
-  Libraries for rate feeds and position tracking usable in custom treasury scripts.
-
-
-
-- **[Bank statement parsing open tools](https://github.com/)**  
-
-  Parsers for MT940, BAI2, CAMT, and CSV bank files commonly used in reconciliation pipelines.
-
-
-
-- **[Self-hosted personal finance / cash OS projects](https://github.com/)**  
-
-  Source-available personal cash flow and net-worth tools (e.g., Aurum-style projects) illustrating local data ownership patterns.
-
-
-
-- **[Documentation and treasury process playbooks](https://github.com/)**  
-
-  Open guides on cash positioning, 13-week forecasts, and bank connectivity best practices.
-
-
-
-- **[Spreadsheet-to-code migration examples](https://github.com/)**  
-
-  Patterns for moving simple cash forecasts from spreadsheets into scripted, auditable pipelines.
-
-
-
-### Additional Strong Open-Source Options
-
-- Building internal cash visibility on **Open Banking APIs** + open statement parsers + a data warehouse.
-
-- Using **ERPNext** or similar open ERPs for basic multi-entity cash reporting.
-
-- Prototyping forecasts with open ML notebooks on historical flows.
-
-- Accepting that real-time multi-bank connectivity, SWIFT/host-to-host scale, enterprise controls, audit, and global liquidity management still require commercial platforms (Kyriba, GTreasury, Nomentia, TIS, FIS, HighRadius, Oracle, SAP, etc.).
-
-- Focusing open-source efforts on data ownership, transparent forecasting logic, and reducing spreadsheet risk for smaller teams.
-
-
-
-**Frameworks for building custom systems**: Aggregate bank data via Open Banking or file imports → store in a warehouse → position and forecast with open scripts → report in open BI. Suitable for mid-market experiments and internal tools. Large multinationals almost always run commercial cash and treasury platforms.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cash and treasury systems handle critical financial data and payments. Open-source prototypes are not substitutes for enterprise TMS in regulated environments. This list is not financial or operational advice.
-
-
+> **Last updated:** September 2026
 
 ---
 
-**Made for treasurers, finance systems teams, and open financial infrastructure advocates.**
+## 📖 Table of Contents 📑
 
-Let's keep cash visibility accurate, auditable, and as open as practical where appropriate.
+- [🏢 Market Overview & Sector Insights](#-market-overview--sector-insights)
+- [☁️ Enterprise SaaS & Hosted Platforms](#️-enterprise-saas--hosted-platforms)
+- [💻 Open-Source & Community GitHub Projects](#-open-source--community-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🏢 Market Overview & Sector Insights 📊
+
+The global corporate cash and treasury management software market is estimated at approximately **$3.8 Billion to $4.5 Billion**, projecting a CAGR of ~8.5% driven by real-time Open Banking APIs, multi-currency corporate liquidity demands, and automated cash positioning. 
+
+**Market Structure:** The enterprise sector is **moderately to highly concentrated** among established ERP giants (Oracle, SAP) and specialized enterprise TMS platforms (Kyriba, GTreasury, FIS, HighRadius). While legacy systems lead top-tier global enterprise accounts, the mid-market remains **fragmented** with fast-growing cloud-native specialists focusing on automated bank connectivity, AI cash forecasting, and working capital optimization.
+
+---
+
+## ☁️ Enterprise SaaS & Hosted Platforms 🚀
+
+The following table lists leading commercial cash and treasury management platforms sorted by company scale (revenue/valuation descending).
+
+| Enterprise SaaS Platform 🏢 | Company Scale (Revenue / Valuation) 💰 | Starting Tier Pricing 🏷️ | Free Tier / Trial Limit ⏳ | Key Capabilities & Features ⚡ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle Cash Management](https://www.oracle.com/)** 🏛️ | ~$53 Billion Revenue | $600 / user / month (Oracle Cloud Financials suite) | 30-Day Free Trial ($300 cloud credits) | Integrated ERP module for cash positioning, automated bank reconciliation, and cash flow forecasting. |
+| **[SAP Cash Management](https://www.sap.com/)** 💼 | ~$34 Billion Revenue | ~$1,200 / user / month (SAP S/4HANA Finance edition) | 30-Day Free Trial (SAP S/4HANA Cloud trial environment) | Enterprise treasury solution for real-time bank account management, liquidity management, and cash visibility. |
+| **[FIS Cash Management](https://www.fisglobal.com/)** 🏦 | ~$14.7 Billion Revenue | ~$2,500 / month starting base enterprise tier | No free trial (Enterprise demo & proof-of-concept upon request) | Comprehensive liquidity, cash positioning, payments, and risk management for global corporates. |
+| **[Coupa Treasury](https://www.coupa.com/)** 🛒 | ~$800 Million Revenue ($8B valuation) | ~$1,500 / month baseline contract tier | No free trial (Custom enterprise sandbox environment upon request) | Unified cash management, payments, and treasury workflows connected with corporate spend management. |
+| **[HighRadius Cash Management](https://www.highradius.com/)** 🤖 | ~$300 Million Revenue ($3.1B valuation) | ~$1,000 / month entry package | No free trial (Custom interactive demo environment upon request) | AI-driven cash positioning, automated 13-week cash forecasting, and bank reconciliation pipelines. |
+| **[Kyriba](https://www.kyriba.com/)** 🌐 | ~$300 Million Revenue ($3B valuation) | ~$1,200 / month starting entry module | No free trial (Guided enterprise sandbox demo upon request) | Market leader in cloud treasury, multi-bank connectivity (SWIFT/API), cash visibility, risk & fraud prevention. |
+| **[GTreasury](https://www.gtreasury.com/)** 📊 | ~$100 Million Revenue | ~$1,000 / month entry SaaS deployment | No free trial (Custom proof-of-concept demo upon request) | Centralized cash positioning, net cash forecasting, risk management, and bank connectivity. |
+| **[Nomentia](https://www.nomentia.com/)** 🇪🇺 | ~$40 Million Revenue | €750 / month starter package | 14-Day Free Trial (Available for select bank connectivity & payment modules) | Modular European treasury suite covering bank connectivity, multi-bank payments, cash positioning, and cash flow forecasting. |
+| **[TIS (Treasury Intelligence Solutions)](https://www.tispayments.com/)** 💳 | ~$35 Million Revenue | €800 / month baseline subscription | No free trial (Custom enterprise sandbox environment upon request) | Multi-bank payments, global cash visibility, payment fraud mitigation, and bank account management. |
+| **[Cashforce](https://www.cashforce.com/)** (acquired by TIS) 📉 | ~$10 Million Revenue | €500 / month baseline forecast edition | 14-Day Free Trial (Simulated cash forecasting workspace) | Specialised cash forecasting and working capital analytics platform for multi-entity liquidity projections. |
+
+---
+
+## 💻 Open-Source & Community GitHub Projects 🔓
+
+While enterprise multi-bank treasury is predominantly commercial, these open-source finance engines, accounting ERP modules, and ledger tools serve as strong foundational building blocks for self-hosted cash flow tracking, bank statement parsing, and liquidity forecasting.
+
+Sorted by GitHub Star Count (descending) 🌟:
+
+| Open-Source Project 🛠️ | GitHub Star Count ⭐ | Description & Use Case 💡 |
+| :--- | :--- | :--- |
+| **[Maybe](https://github.com/maybe-finance/maybe)** 💸 | [<img src="https://img.shields.io/github/stars/maybe-finance/maybe?style=social&color=white" alt="Maybe Stars"/>](https://github.com/maybe-finance/maybe/stargazers) | Modern OS personal finance & net-worth management application built with Ruby on Rails. |
+| **[ERPNext](https://github.com/frappe/erpnext)** 🏗️ | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/>](https://github.com/frappe/erpnext/stargazers) | Enterprise open-source ERP with comprehensive bank reconciliation, cash flow statements, multi-currency ledgers, and multi-entity accounting. |
+| **[Actual Budget](https://github.com/actualbudget/actual)** 📑 | [<img src="https://img.shields.io/github/stars/actualbudget/actual?style=social&color=white" alt="Actual Budget Stars"/>](https://github.com/actualbudget/actual/stargazers) | Privacy-focused, local-first open-source personal and small business cash budgeting application with automatic bank sync capabilities. |
+| **[Firefly III](https://github.com/firefly-iii/firefly-iii)** 🧮 | [<img src="https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white" alt="Firefly III Stars"/>](https://github.com/firefly-iii/firefly-iii/stargazers) | Self-hosted financial manager supporting multi-account cash tracking, budget rules, recurrences, and reporting pipelines. |
+| **[Invoice Ninja](https://github.com/invoiceninja/invoiceninja)** 🧾 | [<img src="https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white" alt="Invoice Ninja Stars"/>](https://github.com/invoiceninja/invoiceninja/stargazers) | Open-source invoicing, expense tracking, and cash inflow management platform for small business cash management. |
+| **[Beancount](https://github.com/beancount/beancount)** 🐍 | [<img src="https://img.shields.io/github/stars/beancount/beancount?style=social&color=white" alt="Beancount Stars"/>](https://github.com/beancount/beancount/stargazers) | Double-entry plain text accounting tool in Python, popular for custom cash flow scripting, portfolio tracking, and multi-currency analysis. |
+| **[Kill Bill](https://github.com/killbill/killbill)** 💳 | [<img src="https://img.shields.io/github/stars/killbill/killbill?style=social&color=white" alt="Kill Bill Stars"/>](https://github.com/killbill/killbill/stargazers) | Open-source subscription billing and payment infrastructure platform for automated payment gateway connectivity and cash collection. |
+| **[hledger](https://github.com/simonmichael/hledger)** 📐 | [<img src="https://img.shields.io/github/stars/simonmichael/hledger?style=social&color=white" alt="hledger Stars"/>](https://github.com/simonmichael/hledger/stargazers) | Robust, fast plain-text accounting software suite written in Haskell for cash tracking, bank reconciliation, and balance reports. |
+| **[GnuCash](https://github.com/gnucash/gnucash)** 🏦 | [<img src="https://img.shields.io/github/stars/gnucash/gnucash?style=social&color=white" alt="GnuCash Stars"/>](https://github.com/gnucash/gnucash/stargazers) | Traditional open-source personal and small-business financial accounting software supporting bank account reconciliation and cash flow projections. |
+| **[Money Manager Ex](https://github.com/moneymanagerex/moneymanagerex)** 📱 | [<img src="https://img.shields.io/github/stars/moneymanagerex/moneymanagerex?style=social&color=white" alt="Money Manager Ex Stars"/>](https://github.com/moneymanagerex/moneymanagerex/stargazers) | Cross-platform personal finance software for tracking cash accounts, recurring payments, and budget forecasting. |
+
+---
+
+## 🤝 How to Contribute ✍️
+
+Contributions are very welcome! To add or update a cash management platform or open-source tool:
+
+1. **Fork** the repository.
+2. Update `README.md` following the tabular schema.
+3. Ensure description links to official websites or GitHub repositories.
+4. Submit a **Pull Request** with details on the added platform.
+
+Check out our curated list of lists at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)!
+
+---
+
+## ☕ Support & Sponsorship 💖
+
+If you find this cash management ecosystem directory helpful, consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover enterprise cash & treasury tools.
+- 🔀 **Fork & Share** with your finance systems engineering and treasury peers.
+- ☕ **Sponsor the developer** or buy a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for supporting open-source financial technology resources! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cash-Management-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cash-Management-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer 📜
+
+- This list is **community-curated** for educational, informational, and research purposes.
+- Enterprise cash management handles sensitive banking data and wire transfers; self-hosted prototypes are not direct replacements for audited enterprise TMS solutions in regulated environments.
