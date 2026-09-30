@@ -61,9 +61,9 @@ The following table lists leading commercial cash and treasury management platfo
 
 While enterprise multi-bank treasury is predominantly commercial, these open-source finance engines, accounting ERP modules, and ledger tools serve as strong foundational building blocks for self-hosted cash flow tracking, bank statement parsing, and liquidity forecasting.
 
-Sorted by GitHub Star Count (descending) 🌟:
+Sorted by GitHub Stars_Count (descending) 🌟:
 
-| Open-Source Project 🛠️ | GitHub Star Count ⭐ | Description & Use Case 💡 |
+| Open-Source Project 🛠️ | GitHub Stars_Count ⭐ | Description & Use Case 💡 |
 | :--- | :--- | :--- |
 | **[Maybe](https://github.com/maybe-finance/maybe)** 💸 | [<img src="https://img.shields.io/github/stars/maybe-finance/maybe?style=social&color=white" alt="Maybe Stars"/>](https://github.com/maybe-finance/maybe/stargazers) | Modern OS personal finance & net-worth management application built with Ruby on Rails. |
 | **[ERPNext](https://github.com/frappe/erpnext)** 🏗️ | [<img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/>](https://github.com/frappe/erpnext/stargazers) | Enterprise open-source ERP with comprehensive bank reconciliation, cash flow statements, multi-currency ledgers, and multi-entity accounting. |
